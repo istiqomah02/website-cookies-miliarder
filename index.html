@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies Miliader | Homemade Cookies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">COOKIES <span>MILIADER.</span></a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+
+            <a href="#products" class="nav-button">Pesan Sekarang</a>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </nav>
+    </header>
+
+    <!-- BERANDA -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="subtitle">HOMEMADE WITH LOVE</p>
+
+            <h1>Sweet Moments<br>
+                Begin With <span>Cookies.</span>
+            </h1>
+
+            <p class="description">
+                Nikmati kelezatan Cookies Miliader!
+                Cookies homemade dengan rasa lezat dan
+                kualitas terbaik untuk menemani setiap
+                momen bahagiamu.
+            </p>
+
+            <a href="#products" class="main-button">
+                Jelajahi Produk →
+            </a>
+
+            <ul class="trust">
+                <li>Homemade</li>
+                <li>Pesan via WhatsApp</li>
+                <li>Mulai Rp7.000</li>
+            </ul>
+        </div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=900"
+                 alt="Cookies Miliader">
+            <div class="sticker"><span>100% HOMEMADE ★ BAKED FRESH ★ </span></div>
+        </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>Chocolate Cookies</span><span>Choco Chip</span><span>Cookies Keju</span><span>Mulai Rp7.000</span><span>Chocolate Cookies</span><span>Choco Chip</span><span>Cookies Keju</span><span>Mulai Rp7.000</span></div></div>
+
+    <!-- TENTANG KAMI -->
+    <section class="about section" id="about">
+
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=900"
+                 alt="Cookies homemade">
+        </div>
+
+        <div class="about-content">
+            <p class="subtitle">KENALI KAMI</p>
+
+            <h2>Tentang <span>Cookies Miliader</span></h2>
+
+            <p>
+                Cookies Miliader merupakan usaha yang bergerak
+                di bidang kuliner dengan produk unggulan berupa
+                cookies homemade. Kami menghadirkan cookies
+                dengan rasa lezat dan kualitas terbaik.
+                Tersedia dalam berbagai varian rasa yang cocok
+                untuk menemani waktu santai bersama keluarga,
+                teman, maupun sebagai camilan sehari-hari.
+            </p>
+
+            <a href="#contact" class="text-link">
+                Hubungi Kami →
+            </a>
+        </div>
+    </section>
+
+    <!-- PRODUK -->
+    <section class="products section" id="products">
+
+        <div class="section-heading">
+            <p class="subtitle">OUR SPECIAL MENU</p>
+
+            <h2>Produk <span>Unggulan Kami</span></h2>
+
+            <p>
+                Temukan varian cookies favoritmu dengan harga
+                yang ramah di kantong!
+            </p>
+        </div>
+
+        <div class="product-container">
+
+            <!-- PRODUK 1 -->
+            <div class="product-card"><span class="badge">Best Seller</span>
+                <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600"
+                     alt="Chocolate Cookies">
+
+                <div class="product-info">
+                    <h3>Chocolate Cookies</h3>
+
+                    <p>
+                        Cookies dengan cita rasa cokelat
+                        yang lezat dan menggugah selera.
+                    </p>
+
+                    <div class="order-row">
+                        <select class="ukuran" aria-label="Ukuran">
+                            <option value="ukuran kecil">Kecil · Rp7.000</option>
+                            <option value="ukuran besar">Besar · Rp12.000</option>
+                        </select>
+                        <div class="qty">
+                            <button type="button" class="minus" aria-label="Kurangi">−</button>
+                            <input class="jumlah" type="number" value="1" min="1" max="99" aria-label="Jumlah">
+                            <button type="button" class="plus" aria-label="Tambah">+</button>
+                        </div>
+                    </div>
+
+                    <div class="product-bottom">
+                        <strong>Rp7.000–Rp12.000</strong>
+
+                        <button onclick=\"pesan('Chocolate Cookies', this)\">
+                            Pesan
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUK 2 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600"
+                     alt="Choco Chip Cookies">
+
+                <div class="product-info">
+                    <h3>Choco Chip Cookies</h3>
+
+                    <p>
+                        Cookies dengan tambahan chocolate chip
+                        yang memberikan sensasi cokelat nikmat.
+                    </p>
+
+                    <div class="order-row">
+                        <select class="ukuran" aria-label="Ukuran">
+                            <option value="ukuran kecil">Kecil · Rp7.000</option>
+                            <option value="ukuran besar">Besar · Rp12.000</option>
+                        </select>
+                        <div class="qty">
+                            <button type="button" class="minus" aria-label="Kurangi">−</button>
+                            <input class="jumlah" type="number" value="1" min="1" max="99" aria-label="Jumlah">
+                            <button type="button" class="plus" aria-label="Tambah">+</button>
+                        </div>
+                    </div>
+
+                    <div class="product-bottom">
+                        <strong>Rp7.000–Rp12.000</strong>
+
+                        <button onclick=\"pesan('Choco Chip Cookies', this)\">
+                            Pesan
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUK 3 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600"
+                     alt="Cookies Keju">
+
+                <div class="product-info">
+                    <h3>Cookies Keju</h3>
+
+                    <p>
+                        Cookies dengan perpaduan rasa gurih
+                        keju yang cocok untuk camilan.
+                    </p>
+
+                    <div class="order-row">
+                        <select class="ukuran" aria-label="Ukuran">
+                            <option value="ukuran kecil">Kecil · Rp7.000</option>
+                            <option value="ukuran besar">Besar · Rp12.000</option>
+                        </select>
+                        <div class="qty">
+                            <button type="button" class="minus" aria-label="Kurangi">−</button>
+                            <input class="jumlah" type="number" value="1" min="1" max="99" aria-label="Jumlah">
+                            <button type="button" class="plus" aria-label="Tambah">+</button>
+                        </div>
+                    </div>
+
+                    <div class="product-bottom">
+                        <strong>Rp7.000–Rp12.000</strong>
+
+                        <button onclick=\"pesan('Cookies Keju', this)\">
+                            Pesan
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- KEUNGGULAN -->
+    <section class="advantages section">
+        <div class="why">
+            <figure class="polaroid">
+                <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=700" alt="Cookies homemade">
+                <figcaption>Dibuat sendiri di rumah</figcaption>
+            </figure>
+
+            <div class="why-text">
+                <h2>Kenapa pilih Cookies Miliader</h2>
+                <dl>
+                    <div>
+                        <dt>Rasa yang dijaga</dt>
+                        <dd>Tiga varian: cokelat, choco chip, dan keju. Pilihannya sedikit, tapi masing-masing dibuat dengan serius.</dd>
+                    </div>
+                    <div>
+                        <dt>Dibuat sendiri</dt>
+                        <dd>Homemade, bukan produksi pabrik. Kamu memesan langsung ke pembuatnya lewat WhatsApp.</dd>
+                    </div>
+                    <div>
+                        <dt>Harga bersahabat</dt>
+                        <dd>Mulai Rp7.000, pas untuk camilan sendiri maupun dibagi.</dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARA PESAN -->
+    <section class="steps section" id="cara-pesan">
+        <div class="steps-wrap">
+            <div class="steps-text">
+                <h2>Pesan lewat WhatsApp, tanpa ribet</h2>
+                <ol class="steps-plain">
+                    <li><strong>Pilih varian, ukuran, dan jumlah</strong> di bagian produk.</li>
+                    <li><strong>Klik Pesan.</strong> WhatsApp terbuka dengan pesan yang sudah tertulis.</li>
+                    <li><strong>Kirim.</strong> Kami konfirmasi stok dan harga sebelum pesananmu dibuat.</li>
+                </ol>
+            </div>
+
+            <div class="chat" aria-label="Contoh pesan WhatsApp">
+                <div class="chat-head">Cookies Miliader</div>
+                <div class="chat-body">
+                    <div class="bubble out">Halo Cookies Miliader, saya ingin memesan 3 pcs Choco Chip Cookies (ukuran besar). Mohon informasi ketersediaan dan harganya. Terima kasih.<small>09.41</small></div>
+                    <div class="bubble in">Halo kak, terima kasih sudah memesan 🍪 Kami cek stoknya dulu ya.<small>09.43</small></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section">
+        <div class="section-heading">
+            <p class="subtitle">PERTANYAAN UMUM</p>
+            <h2>Sebelum <span>Memesan</span></h2>
+        </div>
+        <div class="faq-list">
+            <details open><summary>Bagaimana cara memesan?</summary>
+                <p>Pilih varian, ukuran, dan jumlah, lalu klik Pesan. Kamu akan diarahkan ke WhatsApp dengan pesan yang sudah terisi.</p></details>
+            <details><summary>Berapa harga cookies?</summary>
+                <p>Harga mulai dari Rp7.000 untuk ukuran kecil dan Rp12.000 untuk ukuran besar. Harga final dikonfirmasi lewat WhatsApp.</p></details>
+            <details><summary>Bagaimana pengiriman dan pembayaran?</summary>
+                <p>Tanyakan langsung lewat WhatsApp untuk area pengiriman dan metode pembayaran yang tersedia.</p></details>
+            <details><summary>Bisa pesan dalam jumlah banyak?</summary>
+                <p>Bisa. Hubungi kami lewat WhatsApp untuk pesanan acara, hampers, atau jumlah besar.</p></details>
+        </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section class="contact section" id="contact">
+
+        <p class="subtitle">LET'S ORDER!</p>
+
+        <h2>Yuk, Nikmati <span>Cookies Miliader!</span></h2>
+
+        <p>
+            Pesan cookies favoritmu sekarang.
+            Kami siap menemani momen manismu!
+        </p>
+
+        <a href="https://wa.me/6285649934615?text=Halo%20Cookies%20Miliader%2C%20saya%20ingin%20memesan%20cookies.%20Mohon%20informasi%20ketersediaan%20dan%20harganya.%20Terima%20kasih." target="_blank" rel="noopener"
+           class="main-button">
+            Pesan Melalui WhatsApp
+        </a>
+
+        <div class="social-media">
+            <p>Ikuti media sosial kami:</p>
+
+            <a href="https://www.instagram.com/miliardercookies.id/"
+               target="_blank">
+                Instagram: @miliardercookies.id
+            </a>
+
+            <p>WhatsApp: 085649934615</p>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <h3>COOKIES MILIADER.</h3>
+                <p>Sweet Bites, Happy Moments.</p>
+            </div>
+            <div>
+                <h4>Menu</h4>
+                <a href="#about">Tentang Kami</a>
+                <a href="#products">Produk</a>
+                <a href="#contact">Kontak</a>
+            </div>
+            <div>
+                <h4>Hubungi Kami</h4>
+                <a href="https://wa.me/6285649934615" target="_blank" rel="noopener">WhatsApp 0856-4993-4615</a>
+                <a href="https://www.instagram.com/miliardercookies.id/" target="_blank" rel="noopener">@miliardercookies.id</a>
+            </div>
+        </div>
+        <p class="copy">© 2026 Cookies Miliader. All Rights Reserved.</p>
+    </footer>
+
+    <a href="https://wa.me/6289507787044?text=Halo%20Cookies%20Miliader%2C%20saya%20ingin%20memesan%20cookies.%20Mohon%20informasi%20ketersediaan%20dan%20harganya.%20Terima%20kasih." target="_blank" rel="noopener" class="wa-float" aria-label="Chat WhatsApp">💬 Chat WhatsApp</a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
